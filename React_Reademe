@@ -1,0 +1,59 @@
+REACT JS: It is java-script library created by Facebook. It is UI Library. It is tool for building UI Components.
+Features are 
+1.	It uses Virtual Dom and not Real Dom
+2.	It uses server-side rendering
+3.	It follows Uni-directional data flow or data binding
+Advantages are
+1.	Increases Application Performance
+2.	Bcoz of JSX, code’s readability increases
+3.	It is easy to integrate with other frameworks like angular.
+
+JSX: Java-script XML. It helps to create a virtual DOM by returning the HTML. It is faster because it performs optimization while compiling code to javascript.
+
+Components: Using which u can make dependent UI HTML. Components are like function which performs some operation and returns value and that values is UI.
+Stateless Functional Components :--- Javascript Functions
+Eg: function welcome(props) { return <h1>Hello {props.name}</h1>;
+Stateful Class Components :---- Render method returning HTML
+Eg: class welcome extends Reacts.Component{ render(){ return <h1>Hello {this.props.name}</h1>} }
+
+Virtual Dom: It is Lightweight javascript Object which originally is just the copy of real Dom.
+React(): It is compulsory in react component.It return a single react element which is the representation of the native DOM components.
+
+STYLE TYPE IN REACT JS
+1.	CSS Stylesheet
+2.	Inline Styling
+3.	CSS Modules
+4.	CSS in JS Libaries
+
+Integrate Bootstrap
+1.	Using Bootstrap CDN
+2.	Bootstrap as Dependency
+3.	React Bootstrap Package
+For installing Bootstrap 
+Steps 1. cmd command npm install –save bootstrap@3.3.7
+Steps 2. Check in node_module folder name as bootstrap
+Steps 3. Import the path in file as import ‘/bootstrap/ dist/css/bootstrap.css
+
+ 1. Command Line for React App
+  1.npx create-react-app foldername
+  2.npm start
+ 2. For Bootstrap 
+ 	npm install bootstrap@3.3.7 --save
+ 3. For Form Validation
+ 	npm install react-inputs-validation –save
+ 4. For Jquery 
+ 	npm install jquery –save
+ 5. For react bootstrap carousel
+ 	npm install react-bootstrap-carousel –save
+ 6. For react Router
+ 	npm install react-router –save
+This package provides the core routing functionality for React Router, but you might not want to install it directly. If you are writing an application that will run in the browser, you should instead install react-router-dom. Similarly, if you are writing a React Native application, you should instead install react-router-native. Both of those will install react-router as a dependency.
+ 7. For react router dom
+ 	npm install react-router-dom --save
+
+
+
+
+
+
+
